@@ -349,6 +349,8 @@ html, body {
 .page-wrapper {
   height: 100%;
   background-color: #482F6B;
+  display: grid;
+  grid-template-rows: 70px;
 }
 
 header {
