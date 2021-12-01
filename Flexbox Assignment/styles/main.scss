@@ -1,0 +1,43 @@
+@import 'partials/base';
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.hero-content {
+    flex-direction: column;
+    justify-content: center;
+}
+.sidebar {
+    background-color: white;
+}
+@media only screen and (min-width: 1024px) {
+    h1 {
+        font-size: 4em;
+    }
+    .main-container{
+        display: flex;
+    }
+    .post,
+    .sidebar {
+        width: 50%;
+    }
+    .mixed-layout {
+        display: flex;
+    }
+    .first,
+    .second {
+        width: 50%;
+    }
+    .second {
+        display: flex;
+    }
+    .second-a,
+    .second-b {
+        width: 50%;
+    }
+}
